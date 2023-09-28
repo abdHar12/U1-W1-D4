@@ -105,10 +105,12 @@ thead {
   background-color: #1162c1;
   color: white;
   height: 50px;
+  border-bottom: none;
 }
 
 th {
   padding: 1rem;
+  border: 1px solid white;
 }
 
 td {
@@ -149,7 +151,9 @@ tr:last-child {
   margin-bottom: 16px;
   margin-top: 16px;
 }
-
+.submit-now {
+  text-align: center;
+}
 /* ARTICOLI COORRELATI */
 
 section > div {
