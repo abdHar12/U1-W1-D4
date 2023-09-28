@@ -14,7 +14,10 @@ body {
   background-image: url("/assets/img/sfondo.png");
   margin-inline: auto;
 }
-
+a {
+  color: #03a9f4;
+  font-weight: bolder;
+}
 /* HEADER */
 header {
   text-transform: uppercase;
@@ -53,7 +56,6 @@ header > div {
 }
 
 /* MAIN */
-
 .main-part {
   width: 400px;
   background-color: white;
@@ -62,15 +64,35 @@ header > div {
   box-shadow: 0px 3px 15px 7px #7f7f7f;
 }
 
+.autore {
+  color: #808080a3;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
 .main-part iframe {
   width: 100%;
   border-radius: 20px;
+}
+.main-part .highlighting {
+  color: #bc0909;
+  font-weight: bolder;
+}
+
+.main-part .tags {
+  border: 1px solid;
+  margin: 2px;
+  padding: 5px 8px 5px 8px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  border-radius: 3px;
+  background-color: #80808047;
 }
 
 /* TABELLE */
 caption {
   font-weight: bold;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 table {
   margin-inline: auto;
@@ -80,7 +102,7 @@ table {
   text-align: center;
 }
 thead {
-  background-color: blue;
+  background-color: #1162c1;
   color: white;
   height: 50px;
 }
@@ -99,10 +121,10 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 tr:last-child {
-  border-bottom: 2pt solid blue;
+  border-bottom: 2pt solid #1162c1;
 }
-/* FORM */
 
+/* FORM */
 .news h2 {
   font-weight: bold;
   font-size: 25px;
@@ -117,11 +139,11 @@ tr:last-child {
 .news {
   width: 100%;
   margin-inline: auto;
-  background-color: gray;
+  background-color: #80808047;
   padding: 16px;
 }
 .news button {
-  background-color: blue;
+  background-color: #1162c1;
   font-weight: bold;
   color: white;
   margin-bottom: 16px;
@@ -134,7 +156,7 @@ section > div {
   margin-top: 20px;
   width: 100%;
   margin-inline: auto;
-  background-color: gray;
+  background-color: #80808047;
   padding: 16px;
 }
 
